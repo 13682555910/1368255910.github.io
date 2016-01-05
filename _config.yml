@@ -1,8 +1,8 @@
 # Site settings
-title: Hanson
+title: Demo
 header-img: "img/facebook.jpg"
 tagline: "cn"  
-description: "Hanson|Think Different"  
+description: "Demo|Think Different"  
 baseurl: ""
 url: "http://yichao.github"  
 
@@ -18,7 +18,7 @@ favicon: img/favicon.png
 
 douban_username:  
 twitter_username: 
-github_username: YiChao
+github_username: yichao
 weibo_username: 
 facebook_username:
 zhihu_username: 易超
@@ -34,7 +34,7 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 relative_permalinks: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
+timezone: Asia/Wuhan
 
 # Defaults for posts
 defaults:
@@ -44,16 +44,16 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "hanson"
+      author: "Chao"
       header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : hanson
+    short_name : chao
   disqus :
-      short_name : hanson
+      short_name : chao
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: 
